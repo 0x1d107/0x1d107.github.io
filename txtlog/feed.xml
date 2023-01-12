@@ -1,0 +1,16 @@
+<rss version="2.0">
+<channel>
+	<title>Blog feed</title>
+	<link>http://119047.xyz/feed.xml</link>
+	<description>Blog feed</description>
+	<item>
+		<title>New blog, again</title>
+		<link>http://119047.xyz/new_blog.html</link>
+		<description><![CDATA[<h1 id="new-blog">New blog</h1>
+
+<p>Hi. This is my new blog. Again.</p>]]></description>
+		<pubDate>Sat, 07 Jan 2023 00:00:00 +0500</pubDate>
+		<guid>http://119047.xyz/new_blog.html</guid>
+	</item>
+</channel>
+</rss>
