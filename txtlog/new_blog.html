@@ -19,5 +19,16 @@ Probably. I hope won&#8217;t abandon it again. </p>
 <p>If you want to read shorter chaotic twitter-like posts, you can also follow my rss-only feed:
 <a href="http://0x1d107.xyz/txtlog/0x1d107.xml">http:&#47;&#47;0x1d107.xyz&#47;txtlog&#47;0x1d107.xml</a>. Here I share the links to projects of my interest and other
 stuff. warning: contains swearing and russian language.</p>
+
+<h2 id="about-the-blog-generator">About the blog generator</h2>
+
+<p>The main part of the blog generator is just a makefile. Make tracks files that changed and generates
+the repective html output. For markdown to html conversion I use
+<a href="https://kristaps.bsd.lv/lowdown/">lowdown</a> translator. As for the two &#8220;dynamic&#8221; files, <code>index.html</code>
+and the rss feed, they are generated using shell scripts with here-docs as templates. I think it
+works well enough for this case and it doesn&#8217;t require a whole macro processor, like m4 or php.</p>
+
+<p>Later, I&#8217;ll add formula convertion from LaTeX to MathML at the generation stage. For now, something
+like <a href="https://temml.org/index.html">Temml</a> would do the job client-side.</p>
 </body>
 </html>
